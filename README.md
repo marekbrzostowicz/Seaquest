@@ -9,8 +9,15 @@ Seaquest is a game where you control a submarine navigating the underwater world
   - **Left Arrow**: Move left.
   - **Right Arrow**: Move right.
 
-## Getting Started
-1. Install **Python** from [Python.org](https://www.python.org/).
-2. Install **Pygame**:
-   ```bash
-   pip install pygame
+## Installation 
+```bash
+  git clone https://github.com/marekbrzostowicz/Seaquest
+  cd Seaquest
+  python -m venv venv
+  source venv/bin/activate  # Linux/Mac
+  venv\Scripts\activate     # Windows
+  pip install pygame
+  python main.py
+  
+
+
